@@ -164,3 +164,26 @@ let arreglos = [{},{},{},{}];
 let arreglo6 = [{"nombre": "Eliab Selva", "edad":19},{}, {},{} ];
 
 let arreglo7 = [[{},{}], ["A", 1, 2], [true, false]];
+
+
+
+
+
+
+
+let numeros10 = [1, 2, 3, 4];
+let hayImpares = numeros10.filter(x => x % 2 !== 0);
+console.log(hayImpares); // true (porque hay impares: 1 y 3)
+
+const numeros66 = [1, 2, 3, 4];
+const impares = numeros66.filter(n => Math.abs(n % 2) === 1);
+console.log(impares); // [1, 3]
+
+
+let numeros11 = [1, 2, 3, 4];
+let suma8 = numeros11.reduce((acc, curr) => acc + curr, 0);
+console.log(suma8); // 10
+
+let precios = [40, 20, 30, 40];
+let sumas = precios.reduce((acumulador,varoActual) => acumulador + varoActual, 0);
+console.log(sumas); // 130
